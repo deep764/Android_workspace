@@ -2,8 +2,8 @@ package test
 
 fun main()
 {
-    var i=1
-    while(i<=5)
+    var i=0
+    while(i<=4)
     {
         i++
         var j=5
@@ -11,13 +11,14 @@ fun main()
             {
                 if(j>i)
                 {
-                    print("")
+                    print(" ")
                 }
                 else
                 {
                     print("*")
                 }
-                println()
+                j--
             }
+        println()
     }
 }
